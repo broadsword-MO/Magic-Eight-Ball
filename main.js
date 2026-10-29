@@ -19,5 +19,5 @@ eightBall = answers[randomNumber] ?? 'Try again...';
 
 // Print the greeting, question, and answer.
 console.log(userName ? `Hello ${userName}!` : 'Hello!');
-console.log(`${userName || 'Guest'} asks: ${userQuestion}?`);
+console.log(`${userName || 'Guest'} asks: "${userQuestion}?"`);
 console.log(userQuestion ? `${eightBall}.` : 'Please submit a question.');
